@@ -3,7 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_conditional_rendering/conditional.dart';
 import '../componants.dart';
 import '../layout.dart';
-import '../register/social_register_screen.dart';
+import '../register/chat_register_screen.dart';
 import 'cubit/cubit.dart';
 import 'cubit/states.dart';
 

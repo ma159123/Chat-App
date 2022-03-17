@@ -1,10 +1,11 @@
 import 'package:chat_app/layout.dart';
-import 'package:chat_app/social_login/cubit/cubit.dart';
 import 'package:chat_app/welcome_page.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+
+import 'chat_login/cubit/cubit.dart';
 
 void main()async {
   WidgetsFlutterBinding.ensureInitialized();

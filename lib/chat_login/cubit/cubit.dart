@@ -1,5 +1,4 @@
-
-import 'package:chat_app/social_login/cubit/states.dart';
+import 'package:chat_app/chat_login/cubit/states.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';

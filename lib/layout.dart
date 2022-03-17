@@ -1,11 +1,12 @@
-import 'package:chat_app/social_login/LoginScreen.dart';
-import 'package:chat_app/social_login/cubit/cubit.dart';
-import 'package:chat_app/social_login/cubit/states.dart';
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
+import 'chat_login/LoginScreen.dart';
+import 'chat_login/cubit/cubit.dart';
+import 'chat_login/cubit/states.dart';
 import 'componants.dart';
 
 class Layout extends StatelessWidget {

@@ -1,6 +1,7 @@
-import 'package:chat_app/register/social_register_screen.dart';
-import 'package:chat_app/social_login/LoginScreen.dart';
+import 'package:chat_app/register/chat_register_screen.dart';
 import 'package:flutter/material.dart';
+
+import 'chat_login/LoginScreen.dart';
 
 class WelcomePage extends StatefulWidget {
   const WelcomePage({Key? key}) : super(key: key);

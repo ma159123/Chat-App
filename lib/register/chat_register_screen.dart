@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_conditional_rendering/conditional.dart';
+import '../chat_login/LoginScreen.dart';
 import '../componants.dart';
 import '../layout.dart';
-import '../social_login/LoginScreen.dart';
 import 'cubit/cubit.dart';
 import 'cubit/states.dart';
 // ignore: must_be_immutable
